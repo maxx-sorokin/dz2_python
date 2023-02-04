@@ -6,8 +6,8 @@
 """
 
 number = input('Введите вещественное число: ')
-sum = 0
+summa = 0
 for i in number:
     if i != '.' and i != ',' and i != '-':
-        sum += int(i)
-print(sum)
+        summa += int(i)
+print(summa)
